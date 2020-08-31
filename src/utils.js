@@ -28,9 +28,9 @@ encodePlantUML: function(src, type) {
 			// Do editing?
 			type === "edit" ?
 			// Take edit url
-			"http://www.planttext.com/planttext?text=" :
+			"https://www.planttext.com/planttext?text=" :
 			// Viewing?
-			"http://www.plantuml.com/plantuml/" + type + "/"
+			"https://www.plantuml.com/plantuml/" + type + "/"
 		) +
 			// Encode the...
 			this.encode64(
